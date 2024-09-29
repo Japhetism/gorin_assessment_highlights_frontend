@@ -3,11 +3,12 @@ import styles from "./button.module.css";
 
 interface IButton {
     text: string;
+    onClick: () => void;
 }
 
-const Button = ({ text }: IButton) => {
+const Button = ({ text, onClick }: IButton) => {
     return (
-        <button className={styles.button}>{text}</button>
+        <button className={styles.button} onClick={() => onClick()}>{text}</button>
     )
 }
 

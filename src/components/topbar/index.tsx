@@ -2,7 +2,11 @@ import React from "react";
 import styles from "./topbar.module.css";
 import Button from "../button";
 
-const TopBar = () => {
+interface ITopBar {
+    onClick: (isModalOpen: boolean) => void;
+}
+
+const TopBar = ({ onClick }: ITopBar) => {
     return (
         <div className={styles.topbarMain}>
             <div>
@@ -11,7 +15,7 @@ const TopBar = () => {
                 </p>
             </div>
             <div>
-                <Button text="Add Highlight" />
+                <Button text="Add Highlight" onClick={() => onClick(true)} />
             </div>
         </div>
     )

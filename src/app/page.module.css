@@ -1,3 +1,30 @@
 .highlightContainer {
   margin-top: 40px;
 }
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonAdd {
+  color: #FFFFFF;
+  background: #7261FF;
+  border: 1px solid #7261FF;
+}
+
+.button {
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+}
+
+.inputContainer {
+  margin-top: 10px;
+}
+
+.input {
+  height: 20px;
+}
