@@ -1,0 +1,11 @@
+.button {
+    font-family: "Inter", monospace;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21.04px;
+    color: #FFFFFF;
+    background: #7261FF;
+    border: 1px solid #7261FF;
+    border-radius: 5px;
+    padding: 10px 20px;
+}

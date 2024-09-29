@@ -1,0 +1,30 @@
+.cardMain {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #EAECF0;
+    padding: 20px;
+}
+
+.cardAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.highlightIcon {
+    width: 5%;
+}
+
+.highlightDescription {
+    border: 1px solid #EAECF0;
+    border-radius: 5px;
+    width: 95%;
+    padding: 10px;
+}
+
+.deleteButton {
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.topbarMain {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", monospace;
+    align-items: center;
+}
+
+.topbarTitle {
+    color: #7261FF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 15.72px;
+}
